@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+
+@layer components {
+  .terminal-text {
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff41;
+  }
+  
+  .terminal-bg {
+    background-color: #0a0a0a;
+  }
+  
+  .terminal-border {
+    border: 1px solid #404040;
+  }
+  
+  .terminal-shadow {
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.1);
+  }
+  
+  .project-card {
+    @apply bg-terminal-dark-gray border border-terminal-gray rounded-lg p-6 hover:border-terminal-green transition-all duration-300 hover:shadow-lg hover:shadow-terminal-green/20;
+  }
+  
+  .tab-button {
+    @apply px-4 py-2 rounded-lg transition-all duration-300 hover:bg-terminal-dark-gray;
+  }
+  
+  .tab-button.active {
+    @apply bg-terminal-green text-terminal-bg font-semibold;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff41;
+}
