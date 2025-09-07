@@ -39,7 +39,7 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    name: "BloodIQ",
+    name: "ATM Cash Forcaster",
     description: "Developed a Linear Regression model to forecast next-day ATM cash demand with 88.4% accuracy. As well as using a formula to optimizing cash refill amounts and dates.",
     techStack: ['Python', 'Scikit-learn', 'XGBoost', 'Pandas', 'NumPy', 'Matplotlib'],
     githubUrl: "https://github.com/ndhaliwal59/atmForcasting",
