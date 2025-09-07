@@ -82,9 +82,9 @@ Use "show [category]" to view projects in a specific category.`;
       if (target === 'contact') {
         return `Contact Information:
       
-  Email:     nishan@example.com
-  GitHub:    github.com/nishan
-  LinkedIn:  linkedin.com/in/nishan
+  Email:     ndhaliwal0659@gmail.com
+  GitHub:    https://github.com/ndhaliwal59
+  LinkedIn:  https://www.linkedin.com/in/nishan-dhaliwal-034922238/
 
 Feel free to reach out for collaborations, opportunities, or just to say hello!`;
       }
