@@ -37,10 +37,19 @@ export const projects: Project[] = [
     category: "Featured",
     featured: true
   },
+  {
+    id: 4,
+    name: "BloodIQ",
+    description: "Developed a Linear Regression model to forecast next-day ATM cash demand with 88.4% accuracy. As well as using a formula to optimizing cash refill amounts and dates.",
+    techStack: ['Python', 'Scikit-learn', 'XGBoost', 'Pandas', 'NumPy', 'Matplotlib'],
+    githubUrl: "https://github.com/ndhaliwal59/atmForcasting",
+    category: "Featured",
+    featured: true
+  },
   
   // Learning Projects - Exploring new technologies and concepts
   {
-    id: 4,
+    id: 5,
     name: "Procedural Terrain Gen",
     description: "Created a real-time 3D terrain generation system with infinite world loading, physics simulation, and multi-octave noise-based height maps using Three.js and Cannon.js.",
     techStack: ["Three.js", "Cannon.js", "Cannon-ES", "Simplex Noise", "Vite"],
@@ -48,7 +57,7 @@ export const projects: Project[] = [
     category: "Learning Projects",
   },
   {
-    id: 5,
+    id: 6,
     name: "Password Manager",
     description: "Built a secure and responsive password manager with encrypted storage, JWT authentication, and real-time password strength analysis.",
     techStack: ["React", "TypeScript", "MongoDB", "Vite", "React Router DOM", "Axios", "JWT", "bcrypt"],
@@ -56,7 +65,7 @@ export const projects: Project[] = [
     category: "Learning Projects",
   },
   {
-    id: 6,
+    id: 7,
     name: "Fake News Detector",
     description: "Developed a web app that detects fake news by analyzing pasted text or automatically scraping articles from provided URLs",
     techStack: ["React", "TypeScript", "Vite", "CSS", "Flask", "flask-cors", "scikit-learn", "joblib", "BeautifulSoup", "Selenium"],
@@ -64,7 +73,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/ndhaliwal59/newsCheck",
   },
   {
-    id: 7,
+    id: 8,
     name: "Neural Network Scratch ",
     description: "Built and trained a custom neural network from scratch in NumPy using weather data, with full preprocessing and backpropagation.",
     techStack: ["Python", "NumPy", "Pandas", "scikit-learn"],
@@ -73,7 +82,7 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    id: 8,
+    id: 9,
     name: "Decision Tree Scratch",
     description: "Implemented a decision tree classifier entirely from scratch in NumPy to classify the breast cancer dataset, featuring entropy-based information gain, custom tree building, and recursive traversal.",
     techStack: ["Python", "NumPy", "scikit-learn"],
@@ -81,7 +90,7 @@ export const projects: Project[] = [
     category: "Learning Projects",
   },
   {
-    id: 9,
+    id: 10,
     name: "3D Car Physics Simulation",
     description: "Built an interactive 3D car simulation using Three.js and Cannon-es, featuring realistic chassis and wheel physics, suspension, steering, acceleration, and braking with keyboard controls.",
     techStack: ["JavaScript", "Three.js", "Cannon-es"],
@@ -89,7 +98,7 @@ export const projects: Project[] = [
     category: "Learning Projects",
   },
   {
-    id: 10,
+    id: 11,
     name: "3D Galaxy Generator",
     description: "Developed an interactive 3D galaxy generator with Three.js, allowing real-time customization of particle count, galaxy branches, spin, randomness, and colors using a GUI interface.",
     techStack: ["JavaScript", "Three.js", "lil-gui"],
@@ -101,7 +110,7 @@ export const projects: Project[] = [
   // Early Works - Foundation projects that show your learning journey
 
   {
-    id: 10,
+    id: 12,
     name: "Zen Clicker",
     description: "A relaxing incremental clicker game with customizable ripple effects, gradient backgrounds, and sound effects. Users earn points by clicking, unlock new visual and audio themes, and receive motivational quotes periodically for a zen experience.",
     techStack: ["HTML", "CSS", "JavaScript"],
@@ -109,7 +118,7 @@ export const projects: Project[] = [
     category: "Early Works",
   },
   {
-    id: 11,
+    id: 13,
     name: "JavaScript Projects",
     description: "A collection of small beginner projects including a calculator, expense tracker, rock-paper-scissors game, school outfit planner, and to-do list, built to practice HTML, CSS, and JavaScript fundamentals.",
     techStack: ["HTML", "CSS", "JavaScript"],
@@ -117,7 +126,7 @@ export const projects: Project[] = [
     category: "Early Works",
   },
   {
-    id: 11,
+    id: 14,
     name: "HTML & CSS Sites",
     description: "A collection of static websites built using only HTML and CSS, showcasing template design, dashboards, and social media-inspired layouts. Projects focus on structure, styling, and responsive layouts without JavaScript.",
     techStack: ["HTML", "CSS"],
