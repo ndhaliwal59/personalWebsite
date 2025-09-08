@@ -222,9 +222,9 @@ Feel free to reach out for collaborations, opportunities, or just to say hello!`
     case 'about':
       return `About Topics:
       
-  bio        - My background and story
-  interests  - What I'm passionate about
-  skills     - Technical and soft skills
+  bio        - I'm a 2nd-year Computer Science student driven by curiosity and a passion for Machine Learning and AI. I love turning ideas into real-world projects and constantly push myself to learn and grow. When I'm not coding, you'll probably find me lifting at the gym, deep in a chess game, or enjoying some good food.
+  interests  - Machine Learning & AI Applications, Data Science & Predictive Analytics, Natural Language Processing & RAG Systems
+  skills     - Python, Java, JavaScript, TypeScript, HTML/CSS, React, FastAPI, Flask, Django, 
 
 Use "show [topic]" to view details.`;
 
@@ -243,9 +243,9 @@ Contact me for a detailed resume.`;
     case 'contact':
       return `Contact Information:
       
-  Email:     nishan@example.com
-  GitHub:    github.com/nishan
-  LinkedIn:  linkedin.com/in/nishan
+  Email:     ndhaliwal0659@gmail.com
+  GitHub:    https://github.com/ndhaliwal59
+  LinkedIn:  https://www.linkedin.com/in/nishan-dhaliwal-034922238/
 
 Feel free to reach out for collaborations, opportunities, or just to say hello!`;
 
