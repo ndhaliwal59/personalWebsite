@@ -33,11 +33,11 @@ export const aboutData: AboutSection = {
     languages: [
       "Python", "Java","JavaScript", "TypeScript", "HTML/CSS"
     ],
-    frameworks: [
-      "React", "FastAPI", "Flask", "Django", "Expo", "Three.js", "Cannon.js", "Vite"
+    frameworks : [
+      "React", "FastAPI", "Flask", "Django", "Expo", "Three.js", "Vite"
     ],
     mlLibraries: [
-      "NumPy", "Pandas", "Scikit-learn", "XGBoost", "Torch", "Transformers", "spaCy", "Faiss", "BM25", "BeautifulSoup"
+      "NumPy", "Pandas", "Scikit-learn", "XGBoost", "Torch", "Transformers", "spaCy", "Faiss", "BM25"
     ],
     tools: [
       "Git", "Docker", "Jupyter Notebook", "VS Code", "Postman", "Hugging Face", "OCR"
