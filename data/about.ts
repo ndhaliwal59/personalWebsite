@@ -37,10 +37,10 @@ export const aboutData: AboutSection = {
       "React", "FastAPI", "Flask", "Django", "Expo", "Three.js", "Cannon.js", "Vite"
     ],
     mlLibraries: [
-      "NumPy", "Pandas", "Scikit-learn", "XGBoost", "Torch", "Transformers", "spaCy", "Faiss", "BM25"
+      "NumPy", "Pandas", "Scikit-learn", "XGBoost", "Torch", "Transformers", "spaCy", "Faiss", "BM25", "BeautifulSoup"
     ],
     tools: [
-      "Git", "Docker", "Jupyter Notebook", "VS Code", "Postman", "BeautifulSoup", "Selenium", "Hugging Face", "OCR"
+      "Git", "Docker", "Jupyter Notebook", "VS Code", "Postman", "Hugging Face", "OCR"
     ],
     databases: [
       "PostgreSQL", "MongoDB", "SQLite", "Supabase"
