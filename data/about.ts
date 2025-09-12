@@ -34,7 +34,7 @@ export const aboutData: AboutSection = {
       "Python", "Java","JavaScript", "TypeScript", "HTML/CSS"
     ],
     frameworks : [
-      "React", "FastAPI", "Flask", "Django", "Expo", "Three.js", "Vite"
+      "React", "FastAPI", "Flask", "Django", "Expo", "Three.js", "Vite", "NumPy", "Pandas", "Scikit-learn", "Torch", "Transformers", "spaCy", "Faiss", "BM25"
     ],
     mlLibraries: [
       "NumPy", "Pandas", "Scikit-learn", "XGBoost", "Torch", "Transformers", "spaCy", "Faiss", "BM25"
